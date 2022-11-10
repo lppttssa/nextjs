@@ -1,0 +1,29 @@
+.usersList {
+  margin-bottom: 20px ;
+  .user {
+    font-size: 15px;
+    border: 1px solid gray;
+    padding: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+  .label {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .input {
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: 15px;
+  }
+}

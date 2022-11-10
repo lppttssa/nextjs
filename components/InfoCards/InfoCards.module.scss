@@ -1,0 +1,13 @@
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .cardItem {
+    width: 30%;
+    border: 1px solid gray;
+    padding: 20px;
+    .text {
+      font-size: 20px;
+    }
+  }
+}
